@@ -1,0 +1,5 @@
+language: cpp
+sudo: required
+compiler: g++
+os:
+- linux
