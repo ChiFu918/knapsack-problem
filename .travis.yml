@@ -3,3 +3,6 @@ sudo: required
 compiler: g++
 os:
 - linux
+script:
+- g++ greedy_knapsack.h greedy_knapsack.cpp main.cpp -o main
+- ./main
